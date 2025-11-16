@@ -1,0 +1,9 @@
+# Encrypt all environment files
+.env filter=git-crypt diff=git-crypt
+
+# Encrypt files in the secrets folder
+secrets/* filter=git-crypt diff=git-crypt
+
+# Encrypt all JSON files inside config/
+config/*.json filter=git-crypt diff=git-crypt
+
