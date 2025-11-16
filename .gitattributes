@@ -7,3 +7,5 @@ secrets/* filter=git-crypt diff=git-crypt
 # Encrypt all JSON files inside config/
 config/*.json filter=git-crypt diff=git-crypt
 
+# Encrypt test.php file
+test.php filter=git-crypt diff=git-crypt
